@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "스트라이프 양말",
+    "category": "Socks",
+    "date": "2023-04-11",
+    "image": "socks01",
+    "price": 10000
+  },
+  {
+    "id": 2,
+    "title": "앵무새 양말",
+    "category": "Socks",
+    "date": "2023-04-12",
+    "image": "socks01",
+    "price": 3000
+  },
+  {
+    "id": 3,
+    "title": "아르곤 양말",
+    "category": "Socks",
+    "date": "2023-04-13",
+    "image": "socks01",
+    "price": 5000
+  },
+  {
+    "id": 4,
+    "title": "압축 양말",
+    "category": "Socks",
+    "date": "2023-04-14",
+    "image": "socks01",
+    "price": 3500
+  },
+  {
+    "id": 5,
+    "title": "발목 양말",
+    "category": "Socks",
+    "date": "2023-04-15",
+    "image": "socks01",
+    "price": 6500
+  },
+  {
+    "id": 6,
+    "title": "우주 양말",
+    "category": "Socks",
+    "date": "2023-04-16",
+    "image": "socks01",
+    "price": 2500
+  },
+  {
+    "id": 7,
+    "title": "양말 스니커즈",
+    "category": "Socks",
+    "date": "2023-04-17",
+    "image": "socks01",
+    "price": 5400
+  },
+  {
+    "id": 8,
+    "title": "KF94 Black Mask",
+    "category": "Mask",
+    "date": "2020-03-01",
+    "image": "mask01",
+    "price": 10000
+  },
+  {
+    "id": 9,
+    "title": "KF94 White Mask",
+    "category": "Mask",
+    "date": "2020-03-03",
+    "image": "mask01",
+    "price": 10000
+  },
+  {
+    "id": 10,
+    "title": "KF94 Blue Mask",
+    "category": "Mask",
+    "date": "2020-03-10",
+    "image": "mask01",
+    "price": 10000
+  },
+  {
+    "id": 11,
+    "title": "KF94 Red Mask",
+    "category": "Mask",
+    "date": "2020-02-01",
+    "image": "mask01",
+    "price": 10000
+  },
+  {
+    "id": 12,
+    "title": "KF94 Brown Mask",
+    "category": "Mask",
+    "image": "mask01",
+    "date": "2020-01-25",
+    "price": 10000
+  }
+]
