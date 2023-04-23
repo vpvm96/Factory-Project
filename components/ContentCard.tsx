@@ -12,9 +12,9 @@ export default function ContentCard({ product }: Props) {
 
   return (
     <Link href={`/products/${id}`}>
-      <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl">
+      <article className="overflow-hidden rounded-md shadow-md hover:shadow-xl">
         <Image
-          className="w-full h-56 object-cover"
+          className="h-56 w-full object-cover"
           src={`/images/${image}.jpg`}
           alt={title}
           width={300}
