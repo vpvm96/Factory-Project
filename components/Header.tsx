@@ -1,21 +1,22 @@
 import Link from "next/link";
 
+import SearchInput from "./SearchInput";
+
 export default function Header() {
   return (
-    <header className="flex p-4 border-b-gray-500 border-b-2">
-      <div className="w-1/5 text-2xl font-bold">
+    <header className="flex border-b-2 border-b-gray-500 p-4">
+      <div className="w-1/5 px-4 text-2xl font-bold ">
         <Link href="/">Home Page</Link>
       </div>
-      <nav className="flex justify-between w-3/5 text-lg items-center">
+      <nav className="flex w-4/5 items-center justify-around text-lg">
         <Link href="">회사소개</Link>
         <Link href="/products">상품소개</Link>
         <Link href="">커뮤니티</Link>
         <Link href="">견적문의</Link>
       </nav>
-      <nav className="flex justify-evenly w-1/5 text-sm items-center text-stone-500">
-        <Link href="">로그인</Link>
-        <Link href="">회원가입</Link>
-      </nav>
+      <div className="w-1/3 px-2">
+        <SearchInput />
+      </div>
     </header>
   );
 }
