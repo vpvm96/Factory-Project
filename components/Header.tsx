@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="">회사소개</Link>
         <Link href="/products">상품소개</Link>
         <Link href="">커뮤니티</Link>
-        <Link href="">견적문의</Link>
+        <Link href="/enquiry">견적문의</Link>
       </nav>
       <div className="w-1/3 px-2">
         <SearchInput />
