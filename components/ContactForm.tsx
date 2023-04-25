@@ -19,11 +19,7 @@ const DEFAULT_DATA = {
 };
 
 export default function ContactForm() {
-  const [form, setForm] = useState<Form>({
-    from: "",
-    subject: "",
-    message: "",
-  });
+  const [form, setForm] = useState<Form>(DEFAULT_DATA);
   const [alert, setAlert] = useState<MessageObj | null>(null);
 
   const handleFormValueChange = (
@@ -94,7 +90,7 @@ export default function ContactForm() {
           onChange={handleFormValueChange}
           className="text-black"
         />
-        <button type="submit" className="bg-sky-500 font-bold hover:bg-sky-600">
+        <button className="bg-sky-500 font-bold hover:bg-sky-600">
           Submit
         </button>
       </form>
