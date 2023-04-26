@@ -9,7 +9,7 @@ export default function Header() {
         <Link href="/">Home Page</Link>
       </div>
       <nav className="flex w-4/5 items-center justify-around text-lg">
-        <Link href="">회사소개</Link>
+        <Link href="/management">재고관리</Link>
         <Link href="/products">상품소개</Link>
         <Link href="">커뮤니티</Link>
         <Link href="/enquiry">견적문의</Link>
