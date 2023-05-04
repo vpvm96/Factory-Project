@@ -1,8 +1,11 @@
 "use client";
 
+import { useSearch } from "@/hooks";
 import { CiSearch } from "react-icons/ci";
 
 export default function SearchInput() {
+  const { searchValue, handleValueChange } = useSearch();
+
   return (
     <div className="relative mx-auto flex justify-center text-gray-600">
       <input
@@ -10,6 +13,8 @@ export default function SearchInput() {
         type="search"
         name="search"
         placeholder="Search"
+        value={searchValue}
+        onChange={handleValueChange}
       />
       <button type="submit" className="absolute right-9 top-0 mr-8 mt-3">
         <CiSearch />
