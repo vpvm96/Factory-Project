@@ -26,7 +26,7 @@ export default function ContentCard({ product }: Props) {
             <time className="self-end">{date.toString()}</time>
           </div>
           <h3 className="text-lg font-bold">{title}</h3>
-          <p className="text-gray-500">{price}</p>
+          <p className="text-gray-500">{`${price.toLocaleString()}원`}</p>
         </div>
       </article>
     </Link>
