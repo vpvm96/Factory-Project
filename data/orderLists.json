@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "storeName": "납품할 가게 이름",
+    "description": "납품한 가게에 대한 특이사항(선불, 후불, 미수금)",
+    "socksList": [
+      {
+        "id": 1,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 2,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 3,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "totalPrice": 300000,
+    "createdAt": "2021-03-01T00:00:00.000Z",
+    "updatedAt": "2021-03-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "storeName": "납품할 가게 이름",
+    "description": "납품한 가게에 대한 특이사항(선불, 후불, 미수금)",
+    "socksList": [
+      {
+        "id": 4,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 5,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 6,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "totalPrice": 120000,
+    "createdAt": "2021-03-01T00:00:00.000Z",
+    "updatedAt": "2021-03-01T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "storeName": "납품할 가게 이름",
+    "description": "납품한 가게에 대한 특이사항(선불, 후불, 미수금)",
+    "socksList": [
+      {
+        "id": 7,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 8,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 9,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "totalPrice": 50000,
+    "createdAt": "2021-03-01T00:00:00.000Z",
+    "updatedAt": "2021-03-01T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "storeName": "납품할 가게 이름",
+    "description": "납품한 가게에 대한 특이사항(선불, 후불, 미수금)",
+    "socksList": [
+      {
+        "id": 10,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 11,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 12,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "totalPrice": 12000000,
+    "createdAt": "2021-03-01-T00:00:00.000Z",
+    "updatedAt": "2021-03-01-T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "storeName": "납품할 가게 이름",
+    "description": "납품한 가게에 대한 특이사항(선불, 후불, 미수금)",
+    "socksList": [
+      {
+        "id": 13,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 14,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      },
+      {
+        "id": 15,
+        "name": "Socks",
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "totalPrice": 120000,
+    "createdAt": "2021-03-01-T00:00:00.000Z",
+    "updatedAt": "2021-03-01-T00:00:00.000Z"
+  }
+]
