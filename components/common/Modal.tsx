@@ -33,17 +33,8 @@ const Modal: React.FC<Props> = ({ isOpen, onClose, children }) => {
         </div>
         <div
           onClick={handleInsideClick}
-          className="relative z-10 bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full"
+          className="relative z-10 bg-white rounded-lg overflow-hidden shadow-xl transform transition-all"
         >
-          <div className="absolute top-0 right-0 pt-4 pr-4">
-            <button
-              type="button"
-              onClick={onClose}
-              className="text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition ease-in-out duration-150"
-            >
-              <span className="sr-only">Close</span>
-            </button>
-          </div>
           {children}
         </div>
       </div>

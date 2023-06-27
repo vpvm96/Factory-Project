@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useModal() {
+export default function useModal() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   function openModal() {
