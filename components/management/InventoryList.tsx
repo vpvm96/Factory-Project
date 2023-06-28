@@ -1,5 +1,3 @@
-"use client";
-
 import { Products } from "@/service/products";
 import { useModal, useForm } from "@/hooks";
 
