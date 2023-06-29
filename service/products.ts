@@ -21,6 +21,7 @@ export const getProductsService = cache(async () => {
     .then((product) => product.sort((a, b) => (a.date > b.date ? -1 : 1)));
 });
 
+// 디테일 페이지에 필요한 상품 데이터
 export async function getProductService(id: string) {
   const metadata = await getProductsService();
 
