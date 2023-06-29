@@ -6,6 +6,7 @@ import InventoryListModal from "./InventoryListModal";
 
 interface Props {
   products: Products[];
+  setInventoryClick: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export interface InventoryListFormValue {
@@ -13,7 +14,7 @@ export interface InventoryListFormValue {
   quantity: number;
 }
 
-export default function InventoryList({ products }: Props) {
+export default function InventoryList({ products, setInventoryClick }: Props) {
   const { isOpen, openModal, closeModal } = useModal();
   const { formData, handleChange, handleSubmit } =
     useForm<InventoryListFormValue>(
@@ -25,10 +26,16 @@ export default function InventoryList({ products }: Props) {
     );
 
   return (
-    <section className="flex h-64 w-full max-w-md flex-col justify-center gap-4 rounded-md bg-white px-5 py-3 shadow-md hover:shadow-xl">
+    <section className="flex h-1/3 w-full max-w-md flex-col justify-center gap-4 rounded-md bg-white px-5 py-3 shadow-md hover:shadow-xl">
       <div className="flex flex-row justify-between">
         <h2 className="text-2xl font-bold">재고 리스트</h2>
-        <AddManageButton buttonName="재고 관리" openModal={openModal} />
+        <div className="flex gap-2">
+          <AddManageButton
+            buttonName="재고 관리"
+            clickEvent={() => setInventoryClick(true)}
+          />
+          <AddManageButton buttonName="재고 추가" clickEvent={openModal} />
+        </div>
       </div>
       <div className="flex flex-col gap-4 overflow-scroll">
         {products.map(({ id, title, quantity }) => (
