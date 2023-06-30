@@ -6,7 +6,7 @@ interface Props {
 
 export default function InventoryListAdmin({ products }: Props) {
   return (
-    <div className="w-full h-full justify-center rounded-md bg-white px-5 py-3 shadow-md hover:shadow-xl">
+    <div className="w-full h-full justify-center rounded-md bg-white px-5 py-3 shadow-md hover:shadow-xl overflow-scroll">
       <table className="min-w-full divide-y divide-gray-200 mt-5">
         <thead className="bg-gray-50">
           <tr>
@@ -36,7 +36,7 @@ export default function InventoryListAdmin({ products }: Props) {
             </th>
           </tr>
         </thead>
-        <tbody className="bg-white divide-y divide-gray-200 overflow-scroll">
+        <tbody className="bg-white divide-y divide-gray-200">
           {products.map(({ id, title, quantity }) => (
             <tr key={id}>
               <td className="px-6 py-4 whitespace-nowrap">
@@ -46,14 +46,12 @@ export default function InventoryListAdmin({ products }: Props) {
                 <div className="text-sm text-gray-500">{quantity}</div>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
-                <div className="flex">
-                  <div>
-                    <input
-                      type="number"
-                      className="w-10"
-                      defaultValue={quantity}
-                    />
-                  </div>
+                <div className="flex justify-between items-center">
+                  <input
+                    type="number"
+                    className="w-14 border-gray-500 border-2 rounded-md"
+                    defaultValue={quantity}
+                  />
                 </div>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">

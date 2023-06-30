@@ -34,7 +34,7 @@ export default function OrderList({
       <section className="flex h-2/3 w-full max-w-md flex-col gap-4 rounded-md bg-white px-5 py-3 shadow-md hover:shadow-xl">
         <div className="flex flex-row justify-between">
           <h2 className="text-2xl font-bold">상품 주문 리스트</h2>
-          <AddManageButton buttonName="주문 관리" clickEvent={openModal} />
+          <AddManageButton buttonName="주문 추가" clickEvent={openModal} />
         </div>
         <div className="flex flex-col h-2/3 gap-4 overflow-scroll">
           {orderLists.map((item) => (
